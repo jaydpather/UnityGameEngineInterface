@@ -869,13 +869,13 @@ namespace ThirdEyeSoftware.UnityProject
 
         public void SubmitScoreToLeaderboard(int score, Action<bool> callback)
         {
-            Social.ReportScore(score, "CgkI6pm2reYfEAIQAQ", callback);
+            Social.ReportScore(score, "", callback);
             Social.ShowLeaderboardUI();
         }
 
         public void SubmitScoreToLeaderboard(int score)
         {
-            Social.ReportScore(score, "CgkI6pm2reYfEAIQAQ", SubmitScore_Complete);
+            Social.ReportScore(score, "", SubmitScore_Complete);
             Social.ShowLeaderboardUI();
         }
 

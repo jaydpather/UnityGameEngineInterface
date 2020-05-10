@@ -1,0 +1,2 @@
+C:\Users\jaydp\Documents\Github\UnityGameEngineInterface\Temp\UnityVS_obj\Debug\UnityProject.csprojResolveAssemblyReference.cache
+C:\Users\jaydp\Documents\Github\UnityGameEngineInterface\Temp\UnityVS_obj\Debug\UnityProject.csproj.CoreCompileInputs.cache
