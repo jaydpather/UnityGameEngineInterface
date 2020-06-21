@@ -18,6 +18,7 @@ namespace ThirdEyeSoftware.UnityProject
         public Action OnPurchaseFailedEventHandler { get; set; }
         public Action<string> OnPurchaseSucceededEventHandler { get; set; }
         public Action<string> LogToDebugOutput { get; set; }
+        Action<List<ProductInfo>> OnAppStoreInitialized { get; set; }
 
         //private static readonly AppStoreService _instance = new AppStoreService();
 
@@ -168,6 +169,8 @@ namespace ThirdEyeSoftware.UnityProject
             //controller.products.
 
             _storeSpecificExtensionProvider = extensions;
+
+
         }
 
         public void OnInitializeFailed(InitializationFailureReason error)

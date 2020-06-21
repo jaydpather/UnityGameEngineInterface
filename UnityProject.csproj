@@ -92,16 +92,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppStoreService.cs" />
+    <Compile Include="AsteroidScript.cs" />
+    <Compile Include="btnBuyLivesLarge.cs" />
+    <Compile Include="btnBuyLivesMedium.cs" />
+    <Compile Include="btnBuyLivesSmall.cs" />
+    <Compile Include="btnChooseLevelCancel.cs" />
+    <Compile Include="btnChooseLevelStart.cs" />
+    <Compile Include="btnEULA.cs" />
+    <Compile Include="btnEULAAccept.cs" />
+    <Compile Include="btnEULACancel.cs" />
+    <Compile Include="btnEULAPrompt.cs" />
+    <Compile Include="btnExitGame.cs" />
+    <Compile Include="btnGameLoseMainMenu.cs" />
+    <Compile Include="btnGameLoseTryAgain.cs" />
+    <Compile Include="btnGameOverGetMoreLives.cs" />
+    <Compile Include="btnGameOverMainMenu.cs" />
+    <Compile Include="btnGameWinNextLevel.cs" />
+    <Compile Include="btnGameWinOk.cs" />
+    <Compile Include="btnGetMoreLives.cs" />
+    <Compile Include="btnGetMoreLivesCancel.cs" />
+    <Compile Include="btnHome.cs" />
+    <Compile Include="btnHowToPlay.cs" />
+    <Compile Include="btnHowToPlayOk.cs" />
+    <Compile Include="btnNextLevel.cs" />
+    <Compile Include="btnOutOfLivesOk.cs" />
+    <Compile Include="btnPause.cs" />
+    <Compile Include="btnPrevLevel.cs" />
+    <Compile Include="btnPrivacyPolicy.cs" />
+    <Compile Include="btnPrivacyPolicyPrompt.cs" />
     <Compile Include="btnQuitGame.cs" />
     <Compile Include="btnResumeGame.cs" />
+    <Compile Include="btnShare.cs" />
     <Compile Include="btnStartGame.cs" />
+    <Compile Include="btnStorePurchaseFailedOk.cs" />
+    <Compile Include="btnStorePurchaseSucceededOk.cs" />
+    <Compile Include="ExplosionScript.cs" />
     <Compile Include="GameEventHandler.cs" />
+    <Compile Include="MainCameraScript.cs" />
     <Compile Include="MenuEventHandler.cs" />
+    <Compile Include="PlayerShieldScript.cs" />
+    <Compile Include="PlayerShipScript.cs" />
+    <Compile Include="QuadScript.cs" />
+    <Compile Include="ShipBrighteningSpotLightScript.cs" />
+    <Compile Include="ShipSpotLightScript.cs" />
     <Compile Include="SphereBehavior.cs" />
+    <Compile Include="SunSpotLightScript.cs" />
+    <Compile Include="UnityDataLayer.cs" />
     <Compile Include="UnityGameEngineInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
