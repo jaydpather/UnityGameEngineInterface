@@ -98,6 +98,10 @@ namespace ThirdEyeSoftware.UnityProject
             _dicGameObjNamesToUnityTypeNames.Add("btnEULAPrompt", "btnEULAPrompt");
             _dicGameObjNamesToUnityTypeNames.Add("btnPrivacyPolicyPrompt", "btnPrivacyPolicyPrompt");
 
+            _dicGameObjNamesToUnityTypeNames.Add("txtBuyLivesSmallSavePct", "txtBuyLivesSmallSavePct");
+            _dicGameObjNamesToUnityTypeNames.Add("txtBuyLivesMediumSavePct", "txtBuyLivesMediumSavePct");
+            _dicGameObjNamesToUnityTypeNames.Add("txtBuyLivesLargeSavePct", "txtBuyLivesLargeSavePct");
+
             _dicUnityTypesToWrapperTypes.Add(typeof(AudioSource), typeof(AudioSourceWrapper));
             _dicUnityTypesToWrapperTypes.Add(typeof(Text), typeof(TextWrapper));
         }

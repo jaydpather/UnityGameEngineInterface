@@ -92,58 +92,56 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppStoreService.cs" />
-    <Compile Include="AsteroidScript.cs" />
-    <Compile Include="btnBuyLivesLarge.cs" />
-    <Compile Include="btnBuyLivesMedium.cs" />
-    <Compile Include="btnBuyLivesSmall.cs" />
-    <Compile Include="btnChooseLevelCancel.cs" />
-    <Compile Include="btnChooseLevelStart.cs" />
-    <Compile Include="btnEULA.cs" />
-    <Compile Include="btnEULAAccept.cs" />
-    <Compile Include="btnEULACancel.cs" />
-    <Compile Include="btnEULAPrompt.cs" />
-    <Compile Include="btnExitGame.cs" />
-    <Compile Include="btnGameLoseMainMenu.cs" />
-    <Compile Include="btnGameLoseTryAgain.cs" />
-    <Compile Include="btnGameOverGetMoreLives.cs" />
-    <Compile Include="btnGameOverMainMenu.cs" />
-    <Compile Include="btnGameWinNextLevel.cs" />
-    <Compile Include="btnGameWinOk.cs" />
-    <Compile Include="btnGetMoreLives.cs" />
-    <Compile Include="btnGetMoreLivesCancel.cs" />
-    <Compile Include="btnHome.cs" />
-    <Compile Include="btnHowToPlay.cs" />
-    <Compile Include="btnHowToPlayOk.cs" />
-    <Compile Include="btnNextLevel.cs" />
-    <Compile Include="btnOutOfLivesOk.cs" />
-    <Compile Include="btnPause.cs" />
-    <Compile Include="btnPrevLevel.cs" />
-    <Compile Include="btnPrivacyPolicy.cs" />
-    <Compile Include="btnPrivacyPolicyPrompt.cs" />
-    <Compile Include="btnQuitGame.cs" />
-    <Compile Include="btnResumeGame.cs" />
-    <Compile Include="btnShare.cs" />
-    <Compile Include="btnStartGame.cs" />
-    <Compile Include="btnStorePurchaseFailedOk.cs" />
-    <Compile Include="btnStorePurchaseSucceededOk.cs" />
-    <Compile Include="ExplosionScript.cs" />
-    <Compile Include="GameEventHandler.cs" />
-    <Compile Include="MainCameraScript.cs" />
-    <Compile Include="MenuEventHandler.cs" />
-    <Compile Include="PlayerShieldScript.cs" />
-    <Compile Include="PlayerShipScript.cs" />
-    <Compile Include="QuadScript.cs" />
-    <Compile Include="ShipBrighteningSpotLightScript.cs" />
-    <Compile Include="ShipSpotLightScript.cs" />
-    <Compile Include="SphereBehavior.cs" />
-    <Compile Include="SunSpotLightScript.cs" />
-    <Compile Include="UnityDataLayer.cs" />
-    <Compile Include="UnityGameEngineInterface.cs" />
+    <Compile Include="Assets\UnityProject\AppStoreService.cs" />
+    <Compile Include="Assets\UnityProject\AsteroidScript.cs" />
+    <Compile Include="Assets\UnityProject\btnBuyLivesLarge.cs" />
+    <Compile Include="Assets\UnityProject\btnBuyLivesMedium.cs" />
+    <Compile Include="Assets\UnityProject\btnBuyLivesSmall.cs" />
+    <Compile Include="Assets\UnityProject\btnChooseLevelCancel.cs" />
+    <Compile Include="Assets\UnityProject\btnChooseLevelStart.cs" />
+    <Compile Include="Assets\UnityProject\btnEULA.cs" />
+    <Compile Include="Assets\UnityProject\btnEULAAccept.cs" />
+    <Compile Include="Assets\UnityProject\btnEULACancel.cs" />
+    <Compile Include="Assets\UnityProject\btnEULAPrompt.cs" />
+    <Compile Include="Assets\UnityProject\btnExitGame.cs" />
+    <Compile Include="Assets\UnityProject\btnGameLoseMainMenu.cs" />
+    <Compile Include="Assets\UnityProject\btnGameLoseTryAgain.cs" />
+    <Compile Include="Assets\UnityProject\btnGameOverGetMoreLives.cs" />
+    <Compile Include="Assets\UnityProject\btnGameOverMainMenu.cs" />
+    <Compile Include="Assets\UnityProject\btnGameWinNextLevel.cs" />
+    <Compile Include="Assets\UnityProject\btnGameWinOk.cs" />
+    <Compile Include="Assets\UnityProject\btnGetMoreLives.cs" />
+    <Compile Include="Assets\UnityProject\btnGetMoreLivesCancel.cs" />
+    <Compile Include="Assets\UnityProject\btnHome.cs" />
+    <Compile Include="Assets\UnityProject\btnHowToPlay.cs" />
+    <Compile Include="Assets\UnityProject\btnHowToPlayOk.cs" />
+    <Compile Include="Assets\UnityProject\btnNextLevel.cs" />
+    <Compile Include="Assets\UnityProject\btnOutOfLivesOk.cs" />
+    <Compile Include="Assets\UnityProject\btnPause.cs" />
+    <Compile Include="Assets\UnityProject\btnPrevLevel.cs" />
+    <Compile Include="Assets\UnityProject\btnPrivacyPolicy.cs" />
+    <Compile Include="Assets\UnityProject\btnPrivacyPolicyPrompt.cs" />
+    <Compile Include="Assets\UnityProject\btnQuitGame.cs" />
+    <Compile Include="Assets\UnityProject\btnResumeGame.cs" />
+    <Compile Include="Assets\UnityProject\btnShare.cs" />
+    <Compile Include="Assets\UnityProject\btnStartGame.cs" />
+    <Compile Include="Assets\UnityProject\btnStorePurchaseFailedOk.cs" />
+    <Compile Include="Assets\UnityProject\btnStorePurchaseSucceededOk.cs" />
+    <Compile Include="Assets\UnityProject\ExplosionScript.cs" />
+    <Compile Include="Assets\UnityProject\GameEventHandler.cs" />
+    <Compile Include="Assets\UnityProject\MainCameraScript.cs" />
+    <Compile Include="Assets\UnityProject\MenuEventHandler.cs" />
+    <Compile Include="Assets\UnityProject\PlayerShieldScript.cs" />
+    <Compile Include="Assets\UnityProject\PlayerShipScript.cs" />
+    <Compile Include="Assets\UnityProject\QuadScript.cs" />
+    <Compile Include="Assets\UnityProject\ShipBrighteningSpotLightScript.cs" />
+    <Compile Include="Assets\UnityProject\ShipSpotLightScript.cs" />
+    <Compile Include="Assets\UnityProject\SphereBehavior.cs" />
+    <Compile Include="Assets\UnityProject\SunSpotLightScript.cs" />
+    <Compile Include="Assets\UnityProject\UnityDataLayer.cs" />
+    <Compile Include="Assets\UnityProject\UnityGameEngineInterface.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>

@@ -154,23 +154,28 @@ namespace ThirdEyeSoftware.UnityProject
         #region IStoreListner
         public void OnInitialized(IStoreController controller, IExtensionProvider extensions)
         {
-            //            _logToDebugOutput("OnInitialized()");
+            try
+            { 
+                _unityStoreController = controller;
+                _storeSpecificExtensionProvider = extensions;
 
-            var formatString = "{0}{3}{1}{3}{2}";
-            var debugMsg = string.Format(formatString,
-                                    controller.products.all[0].definition.id,
-                                    controller.products.all[0].metadata.localizedPrice,
-                                    controller.products.all[0].metadata.localizedPriceString,
-                                    Environment.NewLine);
-            //_logToDebugOutput(debugMsg);
+                var productInfos = new List<ProductInfo>();
+                foreach(var curProduct in controller.products.all)
+                {
+                    productInfos.Add(new ProductInfo
+                    {
+                        ProductId = curProduct.definition.id,
+                        Price = curProduct.metadata.localizedPrice,
+                        PriceString = curProduct.metadata.localizedPriceString,
+                    });
+                }
 
-            _unityStoreController = controller;
-
-            //controller.products.
-
-            _storeSpecificExtensionProvider = extensions;
-
-
+                OnAppStoreInitialized(productInfos);
+            }
+            catch(Exception ex)
+            {
+                _logToDebugOutput(ex.ToString());
+            }
         }
 
         public void OnInitializeFailed(InitializationFailureReason error)
