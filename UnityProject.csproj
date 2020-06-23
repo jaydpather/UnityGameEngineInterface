@@ -92,16 +92,58 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btnQuitGame.cs" />
-    <Compile Include="btnResumeGame.cs" />
-    <Compile Include="btnStartGame.cs" />
-    <Compile Include="GameEventHandler.cs" />
-    <Compile Include="MenuEventHandler.cs" />
-    <Compile Include="SphereBehavior.cs" />
-    <Compile Include="UnityGameEngineInterface.cs" />
+    <Compile Include="Assets\UnityProject\AppStoreService.cs" />
+    <Compile Include="Assets\UnityProject\AsteroidScript.cs" />
+    <Compile Include="Assets\UnityProject\btnBuyLivesLarge.cs" />
+    <Compile Include="Assets\UnityProject\btnBuyLivesMedium.cs" />
+    <Compile Include="Assets\UnityProject\btnBuyLivesSmall.cs" />
+    <Compile Include="Assets\UnityProject\btnChooseLevelCancel.cs" />
+    <Compile Include="Assets\UnityProject\btnChooseLevelStart.cs" />
+    <Compile Include="Assets\UnityProject\btnEULA.cs" />
+    <Compile Include="Assets\UnityProject\btnEULAAccept.cs" />
+    <Compile Include="Assets\UnityProject\btnEULACancel.cs" />
+    <Compile Include="Assets\UnityProject\btnEULAPrompt.cs" />
+    <Compile Include="Assets\UnityProject\btnExitGame.cs" />
+    <Compile Include="Assets\UnityProject\btnGameLoseMainMenu.cs" />
+    <Compile Include="Assets\UnityProject\btnGameLoseTryAgain.cs" />
+    <Compile Include="Assets\UnityProject\btnGameOverGetMoreLives.cs" />
+    <Compile Include="Assets\UnityProject\btnGameOverMainMenu.cs" />
+    <Compile Include="Assets\UnityProject\btnGameWinNextLevel.cs" />
+    <Compile Include="Assets\UnityProject\btnGameWinOk.cs" />
+    <Compile Include="Assets\UnityProject\btnGetMoreLives.cs" />
+    <Compile Include="Assets\UnityProject\btnGetMoreLivesCancel.cs" />
+    <Compile Include="Assets\UnityProject\btnHome.cs" />
+    <Compile Include="Assets\UnityProject\btnHowToPlay.cs" />
+    <Compile Include="Assets\UnityProject\btnHowToPlayOk.cs" />
+    <Compile Include="Assets\UnityProject\btnNextLevel.cs" />
+    <Compile Include="Assets\UnityProject\btnOutOfLivesOk.cs" />
+    <Compile Include="Assets\UnityProject\btnPause.cs" />
+    <Compile Include="Assets\UnityProject\btnPrevLevel.cs" />
+    <Compile Include="Assets\UnityProject\btnPrivacyPolicy.cs" />
+    <Compile Include="Assets\UnityProject\btnPrivacyPolicyPrompt.cs" />
+    <Compile Include="Assets\UnityProject\btnQuitGame.cs" />
+    <Compile Include="Assets\UnityProject\btnResumeGame.cs" />
+    <Compile Include="Assets\UnityProject\btnShare.cs" />
+    <Compile Include="Assets\UnityProject\btnStartGame.cs" />
+    <Compile Include="Assets\UnityProject\btnStorePurchaseFailedOk.cs" />
+    <Compile Include="Assets\UnityProject\btnStorePurchaseSucceededOk.cs" />
+    <Compile Include="Assets\UnityProject\ExplosionScript.cs" />
+    <Compile Include="Assets\UnityProject\GameEventHandler.cs" />
+    <Compile Include="Assets\UnityProject\MainCameraScript.cs" />
+    <Compile Include="Assets\UnityProject\MenuEventHandler.cs" />
+    <Compile Include="Assets\UnityProject\PlayerShieldScript.cs" />
+    <Compile Include="Assets\UnityProject\PlayerShipScript.cs" />
+    <Compile Include="Assets\UnityProject\QuadScript.cs" />
+    <Compile Include="Assets\UnityProject\ShipBrighteningSpotLightScript.cs" />
+    <Compile Include="Assets\UnityProject\ShipSpotLightScript.cs" />
+    <Compile Include="Assets\UnityProject\SphereBehavior.cs" />
+    <Compile Include="Assets\UnityProject\SunSpotLightScript.cs" />
+    <Compile Include="Assets\UnityProject\UnityDataLayer.cs" />
+    <Compile Include="Assets\UnityProject\UnityGameEngineInterface.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Assets\" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
