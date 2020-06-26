@@ -134,12 +134,25 @@
     <Compile Include="Assets\UnityProject\PlayerShieldScript.cs" />
     <Compile Include="Assets\UnityProject\PlayerShipScript.cs" />
     <Compile Include="Assets\UnityProject\QuadScript.cs" />
+    <Compile Include="Assets\UnityProject\ScreenUtils.cs" />
     <Compile Include="Assets\UnityProject\ShipBrighteningSpotLightScript.cs" />
     <Compile Include="Assets\UnityProject\ShipSpotLightScript.cs" />
     <Compile Include="Assets\UnityProject\SphereBehavior.cs" />
     <Compile Include="Assets\UnityProject\SunSpotLightScript.cs" />
     <Compile Include="Assets\UnityProject\UnityDataLayer.cs" />
     <Compile Include="Assets\UnityProject\UnityGameEngineInterface.cs" />
+    <Compile Include="Assets\UnityProject\UnityTypeWrappers\AdvertisementWrapper.cs" />
+    <Compile Include="Assets\UnityProject\UnityTypeWrappers\AsyncOperationWrapper.cs" />
+    <Compile Include="Assets\UnityProject\UnityTypeWrappers\AudioSourceWrapper.cs" />
+    <Compile Include="Assets\UnityProject\UnityTypeWrappers\GameObjectWrapper.cs" />
+    <Compile Include="Assets\UnityProject\UnityTypeWrappers\InputWrapper.cs" />
+    <Compile Include="Assets\UnityProject\UnityTypeWrappers\ScreenWrapper.cs" />
+    <Compile Include="Assets\UnityProject\UnityTypeWrappers\TextWrapper.cs" />
+    <Compile Include="Assets\UnityProject\UnityTypeWrappers\TimeWrapper.cs" />
+    <Compile Include="Assets\UnityProject\UnityTypeWrappers\TouchWrapper.cs" />
+    <Compile Include="Assets\UnityProject\UnityTypeWrappers\TransformWrapper.cs" />
+    <Compile Include="Assets\UnityProject\UnityTypeWrappers\Vector2Wrapper.cs" />
+    <Compile Include="Assets\UnityProject\UnityTypeWrappers\Vector3Wrapper.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
